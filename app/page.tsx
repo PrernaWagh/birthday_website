@@ -13,6 +13,9 @@ import { Footer } from "@/components/footer"
 export default function BirthdayPage() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-background via-secondary to-background overflow-hidden">
+      {/* Countdown Overlay - displays first, then disappears */}
+      <BirthdayCountdown />
+      
       {/* Background animations */}
       <FloatingHearts />
       <Sparkles />
@@ -24,12 +27,6 @@ export default function BirthdayPage() {
         {/* Decorative divider */}
         <div className="flex justify-center py-8">
           <span className="text-4xl">✨💕✨</span>
-        </div>
-        
-        <BirthdayCountdown />
-        
-        <div className="flex justify-center py-8">
-          <span className="text-4xl">🎀🌹🎀</span>
         </div>
         
         <LoveLetter />
