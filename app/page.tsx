@@ -1,3 +1,6 @@
+"use client"
+
+import { useState } from "react"
 import { FloatingHearts } from "@/components/floating-hearts"
 import { Sparkles } from "@/components/sparkles"
 import { HeroSection } from "@/components/hero-section"
@@ -7,10 +10,18 @@ import { BirthdayCountdown } from "@/components/birthday-countdown"
 import { PhotoGallery } from "@/components/photo-gallery"
 import { VideoSection } from "@/components/video-section"
 import { AudioPlayer } from "@/components/audio-player"
-import { QRCodeSection } from "@/components/qr-code-section"
 import { Footer } from "@/components/footer"
+import { PasswordProtection } from "@/components/PasswordProtection"
 
 export default function BirthdayPage() {
+  const [isUnlocked, setIsUnlocked] = useState(false)
+
+  // If not unlocked, show only password screen
+  if (!isUnlocked) {
+    return <PasswordProtection onSuccess={() => setIsUnlocked(true)} />
+  }
+
+  // After unlocked, show the full website
   return (
     <main className="min-h-screen bg-gradient-to-b from-background via-secondary to-background overflow-hidden">
       {/* Countdown Overlay - displays first, then disappears */}
@@ -58,8 +69,6 @@ export default function BirthdayPage() {
         <div className="flex justify-center py-8">
           <span className="text-4xl">📱✨📱</span>
         </div>
-        
-        <QRCodeSection />
       </div>
       
       <Footer />

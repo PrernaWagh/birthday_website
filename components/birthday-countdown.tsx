@@ -176,7 +176,7 @@ export function BirthdayCountdown() {
           </p>
 
           <p className="text-lg text-muted-foreground leading-relaxed mb-8 max-w-lg mx-auto">
-            This special day is all about celebrating YOU and the incredible joy you bring into my life. Wishing you endless happiness, love, and all the beautiful moments you deserve.
+            Your presence make me feel very happy 😊Wish you another year of joy, laughter and lots of love🥰🥰You're the best part of my life 🫶I just pray to god that you will always be happy and loving as you are...😍🥰No matter how far we are but my love for you remains same❤️🫂On your special day I am sharing lots of love from me 🤗🤗🤗🤗stay blessed and happy🤩☺️Enjoy your special dayy!!!💝
           </p>
 
           {/* Animated celebration elements */}

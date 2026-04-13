@@ -35,25 +35,19 @@ export function LoveLetter() {
               <p className="text-2xl text-primary">My Dearest Love,</p>
               
               <p>
-                On this special day, I want you to know just how much you mean to me. 
-                Every moment with you is a treasure, every laugh we share is a melody, 
-                and every day I spend by your side is a blessing.
+                Hey, my handsome boy😘🫶, my bestuu🥰🥰, my sweetheart❤️❤️❤️, my happiness😊😊😊😊and the love my life .
               </p>
               
               <p>
-                You are not just my partner, but my best friend, my confidant, 
-                and my greatest adventure. Your smile lights up my world, 
-                and your love makes everything better.
+                You know what is the day today.....🤔It's 14 April yarrr🤭🤭and I'm very happy to celebrate it not because of Ambedkar Jayanti 🙄But it's your birthday yarr🤗🤗🤗🥰🥰🥰I know it's your birthday but I'm very happy today because you are special gift for me given by God.🥰🥰🥰🤗🤗🥰🥰🫶So I want to do all the special things that you would like to make you happy.👩🏻‍❤️‍👨🏼
               </p>
-              
               <p>
                 As you celebrate another year of life, I celebrate another year 
                 of loving you. Thank you for being the amazing person you are, 
                 for your kindness, your patience, and your unconditional love.
               </p>
-              
               <p>
-                Here&apos;s to many more birthdays together, many more memories to create, 
+                Here&apos;s to many more birthdays together🥳🥳, many more memories to create, 
                 and a lifetime of happiness ahead of us.
               </p>
               

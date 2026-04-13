@@ -7,7 +7,7 @@ import { Slider } from "@/components/ui/slider"
 import { Play, Pause, Volume2, VolumeX, Music } from "lucide-react"
 
 // Replace with your audio URL when ready
-const AUDIO_SRC: string | null = null // e.g., "/our-song.mp3" or a URL
+const AUDIO_SRC: string | null = "/audio/birthday.m4a" 
 
 export function AudioPlayer() {
   const [isPlaying, setIsPlaying] = useState(false)
@@ -71,7 +71,7 @@ export function AudioPlayer() {
   return (
     <section className="py-16 px-4 relative z-10">
       <h2 className="text-4xl md:text-5xl font-serif text-center text-foreground mb-4">
-        Our Song 🎵
+        🎶
       </h2>
       <p className="text-center text-muted-foreground mb-12">
         Press play and let the music speak my love for you
@@ -87,7 +87,7 @@ export function AudioPlayer() {
             <Music className="w-8 h-8 text-primary-foreground" />
           </div>
           <div>
-            <h3 className="font-semibold text-foreground">Our Special Song</h3>
+            <h3 className="font-semibold text-foreground">🤩 Listen carefully 🤩</h3>
             <p className="text-sm text-muted-foreground">
               {hasAudio ? "Press play to listen" : "Add AUDIO_SRC in the code"}
             </p>

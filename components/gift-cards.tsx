@@ -13,37 +13,37 @@ interface WishCard {
 const wishes: WishCard[] = [
   {
     id: 1,
-    message: "You make every day feel like a celebration. Happy Birthday, my love!",
+    message: "Your life will be full of sweetness like a cakes and chocolates!🍫🍬",
     emoji: "🎂",
     color: "from-pink-200 to-rose-300",
   },
   {
     id: 2,
-    message: "Another year of loving you is the greatest gift I could ask for.",
+    message: "❤️Aishimasu❤️ ",
     emoji: "💝",
     color: "from-rose-200 to-pink-300",
   },
   {
     id: 3,
-    message: "Here&apos;s to more adventures, laughter, and endless love together!",
+    message: "🥳Your life will be filled with different colors of balloons🥳",
     emoji: "🎈",
     color: "from-pink-300 to-rose-200",
   },
   {
     id: 4,
-    message: "You are my sunshine, my soulmate, and my everything. I love you!",
+    message: "Stay like a sun always shining and bright!🌻",
     emoji: "☀️",
     color: "from-amber-100 to-pink-200",
   },
   {
     id: 5,
-    message: "May all your birthday wishes come true, because you deserve the world!",
+    message: "May your all wishes come true 💥!",
     emoji: "⭐",
     color: "from-rose-100 to-pink-300",
   },
   {
     id: 6,
-    message: "Forever grateful for the day you were born. Happy Birthday, babe!",
+    message: "Roses are red, skies are blue. Wish you a very Happy Birthday!🥰Mera bana rahe tu😊",
     emoji: "🌹",
     color: "from-red-200 to-rose-300",
   },
